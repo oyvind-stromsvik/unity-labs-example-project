@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ParticleHallwaysElectricalSparksYellow
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 11.1111116
+        outSlope: 11.1111116
+        tangentMode: 10
+      - time: .899999976
+        value: 10
+        inSlope: -8.63269806
+        outSlope: -8.63269806
+        tangentMode: 10
+      - time: 1.25
+        value: .0682220459
+        inSlope: -9.37943268
+        outSlope: -9.37943268
+        tangentMode: 10
+      - time: 2.04999995
+        value: 7.76233387
+        inSlope: -7.59508371
+        outSlope: -7.59508371
+        tangentMode: 10
+      - time: 2.36666656
+        value: -.0934700966
+        inSlope: -6.1641593
+        outSlope: -6.1641593
+        tangentMode: 10
+      - time: 3.01666665
+        value: 8.01819992
+        inSlope: -.197935104
+        outSlope: -.197935104
+        tangentMode: 10
+      - time: 3.5666666
+        value: .936752677
+        inSlope: -1.25392246
+        outSlope: -1.25392246
+        tangentMode: 10
+      - time: 4.1833334
+        value: 7.33005476
+        inSlope: 1.11885881
+        outSlope: 1.11885881
+        tangentMode: 10
+      - time: 5.13333321
+        value: -.393251121
+        inSlope: -1.11095309
+        outSlope: -1.11095309
+        tangentMode: 10
+      - time: 6.44999981
+        value: 7.38547134
+        inSlope: -3.76011729
+        outSlope: -3.76011729
+        tangentMode: 10
+      - time: 7
+        value: 0
+        inSlope: -13.4281254
+        outSlope: -13.4281254
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: EmissionModule.rate.scalar
+    path: 
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 4.05042458
+        outSlope: .0301435851
+        tangentMode: 1
+      - time: .50000006
+        value: 2.02521253
+        inSlope: 12.4664946
+        outSlope: -4.74647188
+        tangentMode: 1
+      - time: 1.16666663
+        value: 0
+        inSlope: -.0199880376
+        outSlope: -.172495201
+        tangentMode: 1
+      - time: 1.5
+        value: 0
+        inSlope: .174280465
+        outSlope: 1.9422431
+        tangentMode: 1
+      - time: 1.79999995
+        value: 1.16534567
+        inSlope: 6.3752203
+        outSlope: -6.14600611
+        tangentMode: 1
+      - time: 2.11666679
+        value: 0
+        inSlope: -1.84001851
+        outSlope: .297903955
+        tangentMode: 1
+      - time: 2.61666679
+        value: 0
+        inSlope: -.0376848429
+        outSlope: .189065143
+        tangentMode: 1
+      - time: 3.0666666
+        value: 2.20623708
+        inSlope: 4.87529469
+        outSlope: -13.3559999
+        tangentMode: 1
+      - time: 3.4000001
+        value: 0
+        inSlope: .0371241979
+        outSlope: -.107707307
+        tangentMode: 1
+      - time: 3.86666679
+        value: 0
+        inSlope: .170333982
+        outSlope: .152575374
+        tangentMode: 1
+      - time: 4.30000019
+        value: 1.00694919
+        inSlope: 6.68635893
+        outSlope: -2.81312656
+        tangentMode: 1
+      - time: 4.8166666
+        value: 0
+        inSlope: .119056731
+        outSlope: -.0116587142
+        tangentMode: 1
+      - time: 5.48333311
+        value: 0
+        inSlope: .104835421
+        outSlope: .103546239
+        tangentMode: 1
+      - time: 6.1500001
+        value: 1.50476682
+        inSlope: 7.78457689
+        outSlope: -4.35226965
+        tangentMode: 1
+      - time: 6.88333321
+        value: 0
+        inSlope: -.108662583
+        outSlope: .0365567058
+        tangentMode: 1
+      - time: 7
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Intensity
+    path: ParticleHallwaysElectricalSparksLight
+    classID: 108
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 0
+      attribute: 2181258151
+      script: {fileID: 0}
+      classID: 198
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1475006945
+      attribute: 898800009
+      script: {fileID: 0}
+      classID: 108
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 7
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 11.1111116
+        outSlope: 11.1111116
+        tangentMode: 10
+      - time: .899999976
+        value: 10
+        inSlope: -8.63269806
+        outSlope: -8.63269806
+        tangentMode: 10
+      - time: 1.25
+        value: .0682220459
+        inSlope: -9.37943268
+        outSlope: -9.37943268
+        tangentMode: 10
+      - time: 2.04999995
+        value: 7.76233387
+        inSlope: -7.59508371
+        outSlope: -7.59508371
+        tangentMode: 10
+      - time: 2.36666656
+        value: -.0934700966
+        inSlope: -6.1641593
+        outSlope: -6.1641593
+        tangentMode: 10
+      - time: 3.01666665
+        value: 8.01819992
+        inSlope: -.197935104
+        outSlope: -.197935104
+        tangentMode: 10
+      - time: 3.5666666
+        value: .936752677
+        inSlope: -1.25392246
+        outSlope: -1.25392246
+        tangentMode: 10
+      - time: 4.1833334
+        value: 7.33005476
+        inSlope: 1.11885881
+        outSlope: 1.11885881
+        tangentMode: 10
+      - time: 5.13333321
+        value: -.393251121
+        inSlope: -1.11095309
+        outSlope: -1.11095309
+        tangentMode: 10
+      - time: 6.44999981
+        value: 7.38547134
+        inSlope: -3.76011729
+        outSlope: -3.76011729
+        tangentMode: 10
+      - time: 7
+        value: 0
+        inSlope: -13.4281254
+        outSlope: -13.4281254
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: EmissionModule.rate.scalar
+    path: 
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 4.05042458
+        outSlope: .0301435851
+        tangentMode: 1
+      - time: .50000006
+        value: 2.02521253
+        inSlope: 12.4664946
+        outSlope: -4.74647188
+        tangentMode: 1
+      - time: 1.16666663
+        value: 0
+        inSlope: -.0199880376
+        outSlope: -.172495201
+        tangentMode: 1
+      - time: 1.5
+        value: 0
+        inSlope: .174280465
+        outSlope: 1.9422431
+        tangentMode: 1
+      - time: 1.79999995
+        value: 1.16534567
+        inSlope: 6.3752203
+        outSlope: -6.14600611
+        tangentMode: 1
+      - time: 2.11666679
+        value: 0
+        inSlope: -1.84001851
+        outSlope: .297903955
+        tangentMode: 1
+      - time: 2.61666679
+        value: 0
+        inSlope: -.0376848429
+        outSlope: .189065143
+        tangentMode: 1
+      - time: 3.0666666
+        value: 2.20623708
+        inSlope: 4.87529469
+        outSlope: -13.3559999
+        tangentMode: 1
+      - time: 3.4000001
+        value: 0
+        inSlope: .0371241979
+        outSlope: -.107707307
+        tangentMode: 1
+      - time: 3.86666679
+        value: 0
+        inSlope: .170333982
+        outSlope: .152575374
+        tangentMode: 1
+      - time: 4.30000019
+        value: 1.00694919
+        inSlope: 6.68635893
+        outSlope: -2.81312656
+        tangentMode: 1
+      - time: 4.8166666
+        value: 0
+        inSlope: .119056731
+        outSlope: -.0116587142
+        tangentMode: 1
+      - time: 5.48333311
+        value: 0
+        inSlope: .104835421
+        outSlope: .103546239
+        tangentMode: 1
+      - time: 6.1500001
+        value: 1.50476682
+        inSlope: 7.78457689
+        outSlope: -4.35226965
+        tangentMode: 1
+      - time: 6.88333321
+        value: 0
+        inSlope: -.108662583
+        outSlope: .0365567058
+        tangentMode: 1
+      - time: 7
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Intensity
+    path: ParticleHallwaysElectricalSparksLight
+    classID: 108
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

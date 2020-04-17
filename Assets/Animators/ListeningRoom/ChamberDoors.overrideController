@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ChamberDoors
+  m_Controller: {fileID: 9100000, guid: 35b5a66c2ec6f43609191f6cb689589d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6dd705cfe873a439cbd8c5bbf6981668, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a714492199ccd4901a047128d4c3822a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2c52c36b29b214ba7b730a1b0dbf68db, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6e111a3d27ece4a97874f4d36dae54c3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3cef73b86cc4e46308c90ab72474a913, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 97ed6955ffe0546b2a6eb05f24d92b0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: eb06b3634c1394ce1bdb86b88ed55974, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5f2058f495b5e499d8d3b914dad4aed6, type: 2}

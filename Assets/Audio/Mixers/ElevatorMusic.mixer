@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ElevatorMusic
+  m_OutputGroup: {fileID: 24300000, guid: 88b61f870133a2f48a5ed691468e07e3, type: 2}
+  m_MasterGroup: {fileID: 24300001}
+  m_Snapshots:
+  - {fileID: 24500003}
+  - {fileID: 24588960}
+  - {fileID: 24585892}
+  - {fileID: 24561168}
+  m_StartSnapshot: {fileID: 24585892}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 40b2a46788f0fcf4d8a76a32376205ca
+    - 556b0b508bd10ca4dbc59b690c15c191
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24585892}
+--- !u!243 &24300001
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 40b2a46788f0fcf4d8a76a32376205ca
+  m_Children:
+  - {fileID: 24345624}
+  m_Volume: 9c7dbb32719ba0b4fb7b627b6f440733
+  m_Pitch: 0b71a6a274b836d40bff56e982090993
+  m_Effects:
+  - {fileID: 24400002}
+  - {fileID: 24472156}
+  - {fileID: 24413268}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &24345624
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ElevatorNoiseMusic
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 556b0b508bd10ca4dbc59b690c15c191
+  m_Children: []
+  m_Volume: 79841ca287b0c8448bf98f444c39b99e
+  m_Pitch: 45d10c070ce718e4d805127bfebebb38
+  m_Effects:
+  - {fileID: 24449440}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400002
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 2dbb0692e56c44340a2bd8392ae8c79d
+  m_EffectName: Attenuation
+  m_MixLevel: 637d310d68fd7894e9738a4c4904a721
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &24413268
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: fb1d29b69101ba14e8bb1e824eb5e6a5
+  m_EffectName: Lowpass Simple
+  m_MixLevel: 472d3c6cdfb985442954172f09297695
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: 72f527f1d303b664e8fa95cba0df6c68
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &24449440
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: fb1f964ce4660bf448fe8feae4e54b7c
+  m_EffectName: Attenuation
+  m_MixLevel: d7bc938632460774784e335e6191f1af
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &24472156
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 0a91bc622b082489a88eb277bcfa36e2
+  m_EffectName: Highpass
+  m_MixLevel: dac480f28fa6445e99407df400086959
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: eef1ab16eeeb14aa19879fd0f571c928
+  - m_ParameterName: Resonance
+    m_GUID: 0c33a518322e0483d8a00e6020477f61
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500003
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 3c1bf55ec6167c44593dd1d78f1e1192
+  m_FloatValues:
+    9c7dbb32719ba0b4fb7b627b6f440733: -15
+    79841ca287b0c8448bf98f444c39b99e: -9.83328629
+  m_TransitionOverrides: {}
+--- !u!245 &24561168
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: InsideElevator
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 0ecfb15cc96b1064ea2d79f29b6b6a4a
+  m_FloatValues:
+    9c7dbb32719ba0b4fb7b627b6f440733: -15
+    79841ca287b0c8448bf98f444c39b99e: -10.3452072
+  m_TransitionOverrides: {}
+--- !u!245 &24585892
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ElevatorDoorClosed
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 58cf9071ca49a6d488380480b6dc7aff
+  m_FloatValues:
+    72f527f1d303b664e8fa95cba0df6c68: 649
+    9c7dbb32719ba0b4fb7b627b6f440733: -18.7999992
+    79841ca287b0c8448bf98f444c39b99e: -6.55661535
+    eef1ab16eeeb14aa19879fd0f571c928: 116
+  m_TransitionOverrides: {}
+--- !u!245 &24588960
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ElevatorDoorOpen
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 4b0436927bec912479191e9cd81e3cd3
+  m_FloatValues:
+    9c7dbb32719ba0b4fb7b627b6f440733: -9.98830414
+    79841ca287b0c8448bf98f444c39b99e: -10.3452129
+    eef1ab16eeeb14aa19879fd0f571c928: 700
+  m_TransitionOverrides: {}

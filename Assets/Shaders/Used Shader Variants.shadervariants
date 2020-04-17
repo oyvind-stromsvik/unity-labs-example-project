@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Used Shader Variants
+  m_Shaders:
+    data:
+      first: {fileID: 4800000, guid: 4da5120001c1945e99d8db7be2c8c652, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 336e4a23b383bfe499adbe4ce0526ae3, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: b76bb5e55880f60458545c0549390481, type: 3}
+      second:
+        variants:
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_OFF
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_OFF
+            VERTEXLIGHT_ON
+          passType: 4
+        - keywords: SHADOWS_OFF SPOT
+          passType: 5
+        - keywords: POINT SHADOWS_OFF
+          passType: 5
+        - keywords: POINT SHADOWS_CUBE
+          passType: 5
+        - keywords: POINT SHADOWS_CUBE SHADOWS_SOFT
+          passType: 5
+        - keywords: SHADOWS_DEPTH SHADOWS_NATIVE SPOT
+          passType: 5
+        - keywords: SHADOWS_DEPTH SHADOWS_NATIVE SHADOWS_SOFT SPOT
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+        - keywords: SHADOWS_CUBE
+          passType: 8
+    data:
+      first: {fileID: 4800000, guid: 43ca18288c424f645aaa1e9e07f04c50, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 2b4f29398d9484ccfa9fd220449f5eee, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 70d8568987ac0499f952b54c7c13e265, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: e0d998a9394d87b40af5b6fd5477ffde, type: 3}
+      second:
+        variants:
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_OFF
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_OFF
+            VERTEXLIGHT_ON
+          passType: 4
+        - keywords: SHADOWS_OFF SPOT
+          passType: 5
+        - keywords: POINT SHADOWS_OFF
+          passType: 5
+        - keywords: POINT SHADOWS_CUBE
+          passType: 5
+        - keywords: POINT SHADOWS_CUBE SHADOWS_SOFT
+          passType: 5
+        - keywords: SHADOWS_DEPTH SHADOWS_NATIVE SPOT
+          passType: 5
+        - keywords: SHADOWS_DEPTH SHADOWS_NATIVE SHADOWS_SOFT SPOT
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+        - keywords: SHADOWS_CUBE
+          passType: 8
+    data:
+      first: {fileID: 4800000, guid: 627943dc7a9a74286b70a4f694a0acd5, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 003377fc2620a44939dadde6fe3f8190, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: c547503fff0e8482ea5793727057041c, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHAPREMULTIPLY_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHAPREMULTIPLY_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHAPREMULTIPLY_ON _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHABLEND_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHABLEND_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHABLEND_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHABLEND_ON
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHAPREMULTIPLY_ON _DETAIL_MULX2 _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON _DETAIL_MULX2 _NORMALMAP
+          passType: 4
+        - keywords: FOG_EXP SHADOWS_OFF SPOT _ALPHAPREMULTIPLY_ON
+          passType: 5
+        - keywords: FOG_EXP POINT SHADOWS_OFF _ALPHAPREMULTIPLY_ON
+          passType: 5
+        - keywords: FOG_EXP SHADOWS_OFF SPOT _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 5
+        - keywords: FOG_EXP POINT SHADOWS_OFF _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 5
+        - keywords: FOG_EXP SHADOWS_OFF SPOT _ALPHABLEND_ON
+          passType: 5
+        - keywords: FOG_EXP SHADOWS_OFF SPOT _ALPHAPREMULTIPLY_ON _DETAIL_MULX2 _NORMALMAP
+          passType: 5
+        - keywords: FOG_EXP POINT SHADOWS_OFF _ALPHAPREMULTIPLY_ON _DETAIL_MULX2 _NORMALMAP
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+        - keywords: SHADOWS_CUBE
+          passType: 8
+        - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+          passType: 8
+        - keywords: SHADOWS_DEPTH _ALPHABLEND_ON
+          passType: 8
+        - keywords: SHADOWS_DEPTH _ALPHATEST_ON
+          passType: 8
+        - keywords: SHADOWS_CUBE _ALPHATEST_ON
+          passType: 8
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+          passType: 10
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+            _NORMALMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _NORMALMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION _NORMALMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _DETAIL_MULX2 _NORMALMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+            _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+            _NORMALMAP _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _NORMALMAP _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION _NORMALMAP _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION _NORMALMAP _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _DETAIL_MULX2 _NORMALMAP _SPECGLOSSMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _ALPHATEST_ON _NORMALMAP _SPECGLOSSMAP
+          passType: 10
+        - keywords: 
+          passType: 11
+        - keywords: _EMISSION
+          passType: 11
+        - keywords: _DETAIL_MULX2
+          passType: 11
+        - keywords: _SPECGLOSSMAP
+          passType: 11
+        - keywords: _EMISSION _SPECGLOSSMAP
+          passType: 11
+        - keywords: _DETAIL_MULX2 _SPECGLOSSMAP
+          passType: 11
+    data:
+      first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF _ALPHABLEND_ON _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_EXP LIGHTMAP_OFF
+            SHADOWS_OFF VERTEXLIGHT_ON _ALPHABLEND_ON _EMISSION
+          passType: 4
+        - keywords: FOG_EXP SHADOWS_OFF SPOT _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 5
+        - keywords: FOG_EXP POINT SHADOWS_OFF _ALPHAPREMULTIPLY_ON _NORMALMAP
+          passType: 5
+        - keywords: FOG_EXP SHADOWS_OFF SPOT _ALPHABLEND_ON
+          passType: 5
+        - keywords: FOG_EXP POINT SHADOWS_OFF _ALPHABLEND_ON
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+        - keywords: SHADOWS_CUBE
+          passType: 8
+        - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+          passType: 8
+        - keywords: SHADOWS_DEPTH _ALPHABLEND_ON
+          passType: 8
+        - keywords: SHADOWS_CUBE _ALPHABLEND_ON
+          passType: 8
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+          passType: 10
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION
+          passType: 10
+        - keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_OFF UNITY_HDR_ON
+            _DETAIL_MULX2 _NORMALMAP
+          passType: 10
+        - keywords: DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF UNITY_HDR_ON
+            _EMISSION _METALLICGLOSSMAP _NORMALMAP
+          passType: 10
+        - keywords: 
+          passType: 11
+        - keywords: _EMISSION
+          passType: 11
+        - keywords: _DETAIL_MULX2
+          passType: 11
+    data:
+      first: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: SHADOWS_OFF SPOT UNITY_HDR_ON
+          passType: 0
+        - keywords: POINT SHADOWS_OFF UNITY_HDR_ON
+          passType: 0
+        - keywords: POINT SHADOWS_CUBE UNITY_HDR_ON
+          passType: 0
+        - keywords: POINT SHADOWS_CUBE SHADOWS_SOFT UNITY_HDR_ON
+          passType: 0
+        - keywords: SHADOWS_DEPTH SHADOWS_NATIVE SPOT UNITY_HDR_ON
+          passType: 0
+        - keywords: SHADOWS_DEPTH SHADOWS_NATIVE SHADOWS_SOFT SPOT UNITY_HDR_ON
+          passType: 0
+    data:
+      first: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_OFF
+          passType: 4
+        - keywords: FOG_EXP SPOT
+          passType: 5
+        - keywords: FOG_EXP POINT
+          passType: 5
+        - keywords: 
+          passType: 11
+    data:
+      first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: FOG_EXP SOFTPARTICLES_ON
+          passType: 0
+    data:
+      first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: FOG_EXP SOFTPARTICLES_ON
+          passType: 0
+    data:
+      first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 10782, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
