@@ -1,0 +1,10 @@
+# Ignore everything
+/*
+/*/
+
+# Except for the gitignore file itself.
+!.gitignore
+
+# And these folders.
+!/Assets/
+!/ProjectSettings/
